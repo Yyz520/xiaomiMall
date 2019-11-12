@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/bean/Admin.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/bean/Item.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/bean/Order.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/bean/Page.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/bean/User.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/dao/CarsDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/dao/DBUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/dao/DataConn.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/dao/GoodsDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/dao/ItemDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/dao/OrderDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/dao/UserDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/filter/EncodingFilter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/AdminGoUpdate.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/AdminLogin.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/BackstageGoUpdate.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/CarAdd.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/CarDelete.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/CheckAdmin.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/CheckCode.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/CheckUsers.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/CodeUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/DelAdmin.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/DelUser.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/Delorder.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/DingDan.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/DingDanAdd.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/GoodsSelect.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/InsertGoods.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/ItemSelect.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/ItemSelect1.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/JieSuan.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/Login.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/Logout.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/Modify.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/OrderGoUpdate.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/OrderManagerPage.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/Register.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/Retrieve.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/Sousuo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/UpdateAdmin.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/UpdateGoods.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/UpdateOrder.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/UserUptate.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/XiangQing.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/getCode.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sc/servlet/self_infoList.java" charset="GBK" />
+  </component>
+</project>

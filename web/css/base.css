@@ -1,0 +1,94 @@
+
+.cp {
+	width: 100%;
+	height: 100vh;
+	background: url('../image/ping.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.cp .cp_form {
+    width: 400px;
+    height: 470px;
+	position: absolute;
+	top: 50%;
+	right: 100px;
+	margin-top: -235px;
+    background: #444;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.cp .cp_title {
+	height: 50px;
+    line-height: 50px;
+	font-size: 13px;
+	text-align: center;
+	border-bottom: 2px solid #ff6700;
+}
+
+.login_main {
+	padding: 20px 0;
+	width: 320px;
+	margin: 0 auto;
+}
+
+.username {
+	font: 16px Times New Roman;
+    height: 40px;
+    line-height: 40px;
+	margin: 35px 0;
+}
+
+.username .shurukuang {
+	width: 220px;
+    height: 20px;
+    border: 1px solid #ccc;
+	padding: 5px 10px;
+	margin-left: 12px;
+}
+
+.login_submit {
+	margin: 15px auto;
+}
+
+.submit {
+	border: none;
+    width: 240px;
+    height: 45px;
+    margin-left: 55px;
+    background: #ff6700;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.username .ewm {
+	width: 110px;
+    height: 32px;
+    padding: 0;
+	border: 0;
+	padding: 0 10px;
+}
+.username img {
+	height: 32px;
+	margin-left: 8px;
+	vertical-align: middle;
+}
+
+.username_last {
+	margin-bottom: 5px;
+}
+
+.findpassword a{
+	display: block;
+	font-size: 14px;
+	color: #f9789e;
+	margin: 6px 0 32px 0;
+}
