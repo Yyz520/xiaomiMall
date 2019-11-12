@@ -12,8 +12,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<link rel="stylesheet" href="./css/base.css">
 	<script type="text/javascript"
     src="<%=basePath %>js/jquery-1.7.2.min.js"></script>
-   
-    
 </head>
 <body>
 	<div class="cp">
@@ -33,7 +31,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						<!-- <input type="text" class="ewm" placeholder="请输入验证码" name="uyan">
 						
 						<img src="./image/ewm.png" alt="验证码"> -->
-						<input type="text" name="code" id="code" style="width: 80px;" /> 
+						<input type="text" name="code" id="code" style="width: 80px;height: 30px" />
 						<a href="javascript:;" onclick="changeImg()"><img id="imgObj" alt="验证码"
             				src="${pageContext.request.contextPath}/getCode"></a><br/>
 						<input type="hidden" name="utel">
