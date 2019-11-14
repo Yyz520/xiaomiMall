@@ -33,7 +33,6 @@ public class Modify extends HttpServlet {
 			rs=st.executeUpdate(sql);
 			
 			isSuccess=true;
-			
 		} catch (SQLException e) {
 			System.out.println("连接数据库失败");
 		}finally {
@@ -51,7 +50,7 @@ public class Modify extends HttpServlet {
 			session.setAttribute("upassword", upassword);
 			req.getRequestDispatcher("login.jsp").forward(req, resp);
 		}else{
-			req.getRequestDispatcher("retrieve .jsp").forward(req, resp);
+			req.getRequestDispatcher("retrieve.jsp").forward(req, resp);
 		}	
 		
 	}

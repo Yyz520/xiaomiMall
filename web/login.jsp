@@ -40,13 +40,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						<input type="hidden" name="uaddress">
 					</div>
 					<div class="findpassword">
-						<a href="retrieve .jsp">找回密码</a>
+						<a href="retrieve.jsp">找回密码</a>
 					</div>
 					<div class="login_submit">
 						<input class="submit" type="submit" name="submit" value="立即登录">
 					</div>
-					<div>   </div>
-					<div>  </div>
+					<div></div>
+					<div></div>
 				</div>
 			</form>
 		</div>

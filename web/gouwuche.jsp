@@ -56,14 +56,16 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		</div>
 		<div class="xiantiao"></div>
 		<c:if test="${empty sessionScope.gouwuche }">
-   			<h2>暂无商品信息</h2>
+	<div align="center">
+		<h1> 对不起，您的购物车为空！点击图片进入购买</h1>
+		<a href="main.jsp"><img src="images/nullcart.gif"></a>
+	</div>
         </c:if>
         <c:if test="${not empty sessionScope.gouwuche }">
 		<div class="gwcxqbj">
 			<div class="gwcxd center">
 				<div class="top2 center">
 					<div class="sub_top fl">
-						
 					</div>
 					<div class="sub_top fl">商品名称</div>
 					<div class="sub_top fl">单价</div>
@@ -76,7 +78,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<c:forEach items="${sessionScope.gouwuche}" var="g" varStatus="st">
 				<div class="content2 center">
 					<div class="sub_content fl ">
-						
 					</div>
 					<div class="sub_content fl"><img src="${g.itemPhoto }" width="100px" height="100px"></div>
 					<div class="sub_content fl ft20">${g.itemName }</div>
@@ -122,8 +123,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	    var shuliang=document.getElementById("shuliang-"+gid).value;
     																																																					
 	    	window.location.href="CarAdd?itemId="+gid+"&shuliang="+shuliang;
-	   
-	    
 	 }
 	</script>		
 </html>

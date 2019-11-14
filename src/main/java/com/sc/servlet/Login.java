@@ -31,19 +31,7 @@ public class Login extends HttpServlet {
 		String utureName=req.getParameter("utureName");
 		String uaddress=req.getParameter("uaddress");
 		User u=null;
-		
-		
-		/*UserDao dao=new UserDao();
-		Boolean l=dao.ndqq(upassword);
-		if(l==false){			
-			//req.setAttribute("utureName", utureName);
-			req.setAttribute("uname", uname);
-			req.getRequestDispatcher("login.jsp?chaa==yes").forward(req, resp);
-			
-			return;
-		}*/
-		
-		
+
 		 String code = req.getParameter("code");
 	        // 验证验证码
 	        String sessionCode = req.getSession().getAttribute("code").toString();
@@ -88,13 +76,7 @@ public class Login extends HttpServlet {
 		if(isSuccess){			
 			HttpSession session=req.getSession();
 			session.setAttribute("uname", uname);
-			/*session.setAttribute("upassword", upassword);
-			session.setAttribute("utel", utel);
-			session.setAttribute("uemail", uemail);
-			session.setAttribute("utureName", utureName);
-			session.setAttribute("uaddress", uaddress);*/
 			session.setAttribute("self", u);
-			
 			req.getRequestDispatcher("main.jsp").forward(req, resp);
 		}else{
 			req.getRequestDispatcher("login.jsp?coda==erro").forward(req, resp);

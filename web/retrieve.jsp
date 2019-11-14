@@ -10,7 +10,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <base href="<%=basePath%>">
     
     <title>My JSP 'Retrieve .jsp' starting page</title>
-    
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="expires" content="0">    
@@ -159,28 +158,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			return false;
 				}
 			}
-	
 		}
  	</script>
   </head>
-  
   <body>
-  <!-- <center>
-    <form action="Retrieve" method="post">
-            请输入用户名：
-            <input type="text" name="uname"><br>
-  	     请输入用户真实姓名
-  	     <input type="text" name="utureName"><br>
-  	     <input type="submit" value="立即找回">
-    
-    
-    </form>
-    </center> -->
     <form action="Retrieve" method="post" onsubmit="return checkform()" name="myform">
 <div id="content">
-    <div class="login-header">
-        找回密码
-    </div>
+    <div class="login-header">找回密码</div>
     <form>
         <div class="login-input-box">
             <span class="icon icon-user"></span>
@@ -189,17 +173,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         </div>
         <div class="login-input-box">
             <span class="icon icon-password"></span>
-            <input type="text" name="utureName" placeholder="请输入用户真实姓名">
+            <input type="text" name="utureName" placeholder="请输入用户真实姓名">
         </div>
     </form>
     <div class="remember-box">
         <label>
-           <!--  <input type="checkbox">&nbsp;Remember Me -->
         </label>
     </div>
     <div class="login-button-box">
-        <!-- <button>ç»å½</button> -->
-       <button> <input type="submit" value="立即找回"></button>
+       <button>立即找回</button>
     </div>
     <div class="logon-box">
         <a href="login.jsp">登录</a>

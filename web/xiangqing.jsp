@@ -150,10 +150,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						<c:when test="${i.itemNum==0}">
 							<a href="main.jsp" onclick="return window.confirm('没有库存，请返回首页！');"><input class="jrgwc" type="button" name="jrgwc" value="加入购物车" /></a>
 						</c:when>
+						<c:when test="${empty sessionScope.self.uname}">
+							<div class="jsanniu fr"><a href="login.jsp" onclick="return window.confirm('登陆才能去加入购物车，是否登陆？');"><input class="jrgwc" type="button" name="jrgwc" value="加入购物车" /></a></div>
+						</c:when>
 						<c:otherwise>
 							<a href="CarAdd?itemId=${i.itemId }"><input class="jrgwc" type="button" name="jrgwc" value="加入购物车" /></a>
 						</c:otherwise>
-					</c:choose>
+				</c:choose>
 			</div>
 		</div>
 		<div class="clear"></div>

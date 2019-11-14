@@ -54,7 +54,7 @@ public class Retrieve extends HttpServlet {
 			req.getRequestDispatcher("modify.jsp").forward(req, resp);
 		}else{
 			//Ê§°Ü
-			req.getRequestDispatcher("retrieve .jsp?codaq==erro").forward(req, resp);
+			req.getRequestDispatcher("retrieve.jsp?codaq==erro").forward(req, resp);
 		}	
 		
 	}
